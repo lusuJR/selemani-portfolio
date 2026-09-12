@@ -775,6 +775,113 @@
         </div>
     </div>
 </section>
+
+<!-- Contact Section -->
+<section class="contact-section" id="contact">
+    <div class="container contact-container">
+
+        <div class="contact-content">
+            <p class="section-label light-label">START A CONVERSATION</p>
+
+            <h2>
+                What are you ready to build, modernise, or learn?
+            </h2>
+
+            <p>
+                Share some information about your software project, cloud
+                requirement, training programme, assessment, or moderation
+                service.
+            </p>
+
+            <div class="contact-details">
+                <div>
+                    <small>Email</small>
+                    <strong>lusukama.s@gmail.com</strong>
+                </div>
+
+                <div>
+                    <small>Phone or WhatsApp</small>
+                    <strong>+27 61 581 7580</strong>
+                </div>
+
+                <div>
+                    <small>LinkedIn</small>
+                    <strong>linkedin.com/in/your-profile</strong>
+                </div>
+
+                <div>
+                    <small>Location</small>
+                    <strong>Pretoria, South Africa · Remote and on-site</strong>
+                </div>
+            </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="fullName">Full name</label>
+                    <input
+                        type="text"
+                        id="fullName"
+                        name="fullName"
+                        autocomplete="name"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        autocomplete="email"
+                        required
+                    >
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="service">How can I help you?</label>
+
+                <select id="service" name="service" required>
+                    <option value="">Select a service</option>
+                    <option value="software">Software development</option>
+                    <option value="cloud">Cloud migration or consulting</option>
+                    <option value="training">Corporate technical training</option>
+                    <option value="certification">
+                        Microsoft certification preparation
+                    </option>
+                    <option value="assessment">
+                        MICT SETA assessment services
+                    </option>
+                    <option value="moderation">
+                        MICT SETA moderation services
+                    </option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Tell me about your requirements</label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Describe your goal, challenge, timeline, or training requirement..."
+                    required
+                ></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">
+                Send Enquiry →
+            </button>
+
+            <p id="formStatus" class="form-status" aria-live="polite"></p>
+        </form>
+
+    </div>
+</section>
     <script src="script.js"></script>
 </body>
 
