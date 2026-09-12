@@ -1221,3 +1221,15 @@ a {
         flex-direction: column;
     }
 }
+
+/* Consultation button hover correction */
+
+.nav-links .nav-button {
+    background: var(--white);
+    color: var(--navy);
+}
+
+.nav-links .nav-button:hover {
+    background: var(--blue);
+    color: var(--white);
+}
